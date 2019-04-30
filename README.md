@@ -1,10 +1,10 @@
 Repositorio Tiago Barreto Basico
 
 Iniciar um repositorio local
-git init
+$ git init
 
 Conect um repositorio local novo com um repositorio no servidor
-git remote add origin <servidor>
+$ git remote add origin <servidor>
 
 Para facilitar o acesso ao GitHub é possível definir o email que será utilizado para acessar os repositórios em sua conta. Para isso basta digitar:
 
@@ -19,7 +19,7 @@ Para adicionar mudanças e novos arquivos ao Index
 
 $ git add nome-do-arquivo
 $ git add . - Adicionar todos os arquivos alterados/criados
-git add *
+$ git add *
   
 Para confirmar as mudanças realizadas
 
